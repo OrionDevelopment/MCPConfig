@@ -1,6 +1,6 @@
 --- a/net/minecraft/world/item/crafting/RecipeManager.java
 +++ b/net/minecraft/world/item/crafting/RecipeManager.java
-@@ -81,7 +81,7 @@
+@@ -80,7 +80,7 @@
  
     public <C extends Container, T extends Recipe<C>> List<T> m_44013_(RecipeType<T> p_44014_) {
        return this.m_44054_(p_44014_).values().stream().map((p_44053_) -> {
@@ -9,7 +9,7 @@
        }).collect(Collectors.toList());
     }
  
-@@ -94,7 +94,7 @@
+@@ -93,7 +93,7 @@
     }
  
     private <C extends Container, T extends Recipe<C>> Map<ResourceLocation, Recipe<C>> m_44054_(RecipeType<T> p_44055_) {

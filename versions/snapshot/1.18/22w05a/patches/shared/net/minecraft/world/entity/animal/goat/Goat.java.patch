@@ -1,6 +1,6 @@
 --- a/net/minecraft/world/entity/animal/goat/Goat.java
 +++ b/net/minecraft/world/entity/animal/goat/Goat.java
-@@ -124,7 +124,7 @@
+@@ -119,7 +119,7 @@
     }
  
     public Brain<Goat> m_6274_() {
